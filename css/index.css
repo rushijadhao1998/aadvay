@@ -1,0 +1,186 @@
+/* Fonts */
+:root {
+    --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --heading-font: "Raleway", sans-serif;
+    --nav-font: "Poppins", sans-serif;
+  }
+  
+  /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+  :root {
+    --background-color: #ffffff;
+    /* Background color for the entire website, including individual sections */
+    --default-color: #212529;
+    /* Default color used for the majority of the text content across the entire website */
+    --heading-color: #101f0c;
+    /* Color for headings, subheadings and title throughout the website */
+    --accent-color: #20c997;
+    /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    --surface-color: #ffffff;
+    /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+    --contrast-color: #ffffff;
+    /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  }
+  
+ 
+ 
+   
+
+  /*--------------------------------------------------------------
+    # Global Section Titles
+    --------------------------------------------------------------*/
+  .section-title {
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  
+  .section-title h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    background: color-mix(in srgb, var(--accent-color), transparent 90%);
+    color: var(--accent-color);
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-family: var(--default-font);
+  }
+  
+  .section-title div {
+    color: var(--heading-color);
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--heading-font);
+  }
+  
+  .section-title div .description-title {
+    color: var(--accent-color);
+  }
+
+.account .account-tem {
+    background-color: var(--surface-color);
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+    height: 100%;
+  }
+  
+  @media (min-width: 1200px) {
+    .account .account-tem:hover {
+      transform: scale(1.1);
+    }
+  }
+  
+  .account h3 {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .account .price {
+    font-size: 36px;
+    color: var(--heading-color);
+    font-weight: 600;
+    font-family: var(--heading-font);
+  }
+  
+  .account .price sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+  }
+  
+  .account .price span {
+    color: color-mix(in srgb, var(--default-color), transparent 50%);
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .account .icon {
+    padding: 20px 0;
+  }
+  
+  .account .icon i {
+    font-size: 48px;
+  }
+  
+  .account ul {
+    padding: 0;
+    list-style: none;
+    color: var(--default-color);
+    text-align: center;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  
+  .account ul li {
+    padding-bottom: 10px;
+  }
+  
+  .account ul .na {
+    color: color-mix(in srgb, var(--default-color), transparent 70%);
+    text-decoration: line-through;
+  }
+  
+  
+  /* .account .btn-sav{
+      display: inline-block;
+      padding: 8px 40px 10px 40px;
+      border-radius: 50px;
+      color:#20c997;
+      transition: none;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: #20c997;
+      font-weight: 600;
+      transition: 0.3s;
+      border: 1px solid #20c997;
+  }
+  
+  .account .btn-sav:hover {
+    background: #20c997;
+    color: var(--contrast-color);
+  } */
+  
+  
+  .account .btn-buy {
+    display: inline-block;
+    padding: 6px 35px 8px 35px;
+    border-radius: 50px;
+    color: var(--accent-color);
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid var(--accent-color);
+  }
+  
+  .account .btn-buy:hover {
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  
+  .account .featured {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: var(--accent-color);
+    color: var(--contrast-color);
+  }
+  
