@@ -283,7 +283,7 @@ img {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 650px) {
   .navbar-brand {
     font-size: 20px;
     align-items: start;
@@ -291,17 +291,13 @@ img {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .navbar-brand {
-    font-size: 15px;
+    font-size: 10px;
   }
 }
 
-@media (max-width: 470px) {
-  .navbar-brand {
-    font-size: 7px;
-  }
-}
+
 
 
 .bg-image,
