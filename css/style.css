@@ -115,6 +115,11 @@ img {
 }
 
 
+.dir-img{
+  max-width: 100;
+}
+
+
 
 .text-primary {
   color: #f7ca44 !important;
@@ -774,7 +779,7 @@ textarea.form-control {
 
 .featured-donate,
 .featured-section {
-  padding: 4em 0;
+  padding: 1em 0;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -2753,7 +2758,8 @@ textarea.form-control {
 }
 
 .block-38 .block-38-header img {
-  width: 150px;
+  width: auto;
+  height: auto;
   border-radius: 7px;
   margin-bottom: 20px;
 }
@@ -2886,4 +2892,34 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px;
   }
+}
+
+.donate-btn{
+  box-shadow: 2px 2px;
+  border: none;
+  font-size: 35px;
+  font-weight: 700;
+  background-color: #28a745;
+  /* background-image: linear-gradient(to right, #EA6400,  #008B98); */
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px 10px 10px 10px;
+  text-decoration: none;
+  padding: 0 50px 0 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.donate-btn:hover{
+  /* border-radius: 25px 0px 25px 0px; */
+  background-color: #F7CA44;
+  /* background-image: linear-gradient(to right, blue, red); */
+  color: #000;
+/* color: white; */
+}
+
+img .img-donate{
+  max-width: 100%;
+  max-height: 100%;
 }

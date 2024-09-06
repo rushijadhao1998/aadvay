@@ -1,0 +1,11 @@
+.row h2{
+    display: block;
+
+
+}
+
+.row li{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
