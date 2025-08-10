@@ -2,7 +2,7 @@
 :root {
     --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --heading-font: "Raleway", sans-serif;
-    --nav-font: "Poppins", sans-serif;
+    --nav-font: "Poppins", sans-serif, "Berlin Sans FB";
   }
   
   /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -132,24 +132,7 @@
   }
   
   
-  /* .account .btn-sav{
-      display: inline-block;
-      padding: 8px 40px 10px 40px;
-      border-radius: 50px;
-      color:#20c997;
-      transition: none;
-      font-size: 16px;
-      font-weight: 400;
-      font-family: #20c997;
-      font-weight: 600;
-      transition: 0.3s;
-      border: 1px solid #20c997;
-  }
-  
-  .account .btn-sav:hover {
-    background: #20c997;
-    color: var(--contrast-color);
-  } */
+
 
   .container1{
     width: 90%;
