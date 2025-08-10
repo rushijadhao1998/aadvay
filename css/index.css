@@ -150,6 +150,13 @@
     background: #20c997;
     color: var(--contrast-color);
   } */
+
+  .container1{
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+  }
   
   
   .account .btn-buy {
