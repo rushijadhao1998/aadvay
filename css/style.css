@@ -148,7 +148,9 @@ img {
 
 
 .dir-img{
-  max-width: 100;
+  max-width: 200;
+  width: 100px;
+  height: 120px;
 }
 
 
