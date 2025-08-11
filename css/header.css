@@ -37,20 +37,20 @@ header {
     border-bottom: 2px solid gray;
 }
 
-.company{
+.company {
     display: flex;
     align-items: center;
     /* text-align: center; */
     align-content: center;
 }
 
-.brand_name{
+.brand_name {
     color: #007f86;
     cursor: pointer;
     font-family: "Berlin Sans FC";
 }
 
-.brand_logo{
+.brand_logo {
     cursor: pointer;
     max-height: 120px;
 }
@@ -147,16 +147,16 @@ header {
     height: 325px;
     width: 100%;
     max-width: 100%;
-    left: 0; 
+    left: 0;
     right: 0;
 }
 
 
 
-.image{
-    height: 380px; 
-    width: 100%; 
-    background-repeat: no-repeat; 
+.image {
+    height: 380px;
+    width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -169,9 +169,9 @@ header {
 
 
 @media (max-width: 1500px) {
-   .image{
-    height: 320px;
-   }
+    .image {
+        height: 320px;
+    }
 }
 
 
@@ -181,59 +181,79 @@ header {
     .navbar_new .nav ul {
         display: none;
     }
-    
+
     .navbar_new .menu {
         display: flex;
     }
-    
+
     .navbar_new .menu i {
         display: inline-block;
     }
-    
+
     .navbar_new .highlight {
         display: none;
     }
-    
+
     .dropdown-menu {
         display: block;
     }
-    
+
     .dropdown-menu .highlight {
         display: block;
         margin-top: 1rem;
     }
 
-    .brand_name{
+    .brand_logo {
+        max-height: 100px;
+    }
+
+    .brand_name {
         font-size: 25px;
     }
 
-    .image{
-    height: 220px;
-   }
+    .image {
+        height: 220px;
+    }
+
 }
 
 
 @media (max-width: 1000px) {
-   .image{
-    height: 180px;
-   }
+    .brand_logo {
+        max-height: 80px;
+    }
+
+    .image {
+        height: 180px;
+    }
 }
 
 @media (max-width: 700px) {
-   .image{
-    height: 130px;
-   }
-   .brand_name{
-    font-size: 20px;
-   }
+    .brand_logo {
+        max-height: 70px;
+    }
+
+    .image {
+        height: 130px;
+    }
+
+    .brand_name {
+        font-size: 20px;
+    }
 }
 
 
 @media (max-width: 500px) {
-   .image{
-    height: 130px;
-   }
-   .brand_name{
-    font-size: 10px;
-   }
+
+    .brand_logo {
+        max-height: 60px;
+    }
+
+    .image {
+        height: 130px;
+    }
+
+    .brand_name {
+        font-size: 10px;
+    }
 }
