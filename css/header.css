@@ -220,7 +220,7 @@ header {
 
 @media (max-width: 1000px) {
     .brand_logo {
-        max-height: 80px;
+        max-height: 90px;
     }
 
     .image {
@@ -230,7 +230,7 @@ header {
 
 @media (max-width: 700px) {
     .brand_logo {
-        max-height: 70px;
+        max-height: 80px;
     }
 
     .image {
@@ -246,14 +246,10 @@ header {
 @media (max-width: 500px) {
 
     .brand_logo {
-        max-height: 60px;
+        max-height: 70px;
     }
 
     .image {
         height: 130px;
-    }
-
-    .brand_name {
-        font-size: 10px;
     }
 }
