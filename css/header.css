@@ -138,7 +138,7 @@ header {
 }
 
 .dropdown-menu .highlight {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -200,7 +200,7 @@ header {
 
     .dropdown-menu .highlight {
         display: block;
-        margin-top: 1rem;
+        margin-top: 0rem;
     }
 
     .brand_logo {
