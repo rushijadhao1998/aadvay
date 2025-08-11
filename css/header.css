@@ -178,6 +178,7 @@ header {
 @media (max-width: 1500px) {
     .image {
         height: 320px;
+        width: 100%;
     }
 
  
@@ -223,6 +224,7 @@ header {
 
     .image {
         height: 220px;
+        width: 100%;
     }
 
 }
@@ -235,6 +237,7 @@ header {
 
     .image {
         height: 180px;
+        width: 100%;
     }
 
 }
@@ -246,6 +249,7 @@ header {
 
     .image {
         height: 130px;
+        width: 100%;
     }
 
     .brand_name {
@@ -262,5 +266,6 @@ header {
 
     .image {
         height: 80px;
+        width: 100%;
     }
 }
