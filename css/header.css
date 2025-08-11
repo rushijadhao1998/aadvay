@@ -161,6 +161,13 @@ header {
 }
 
 
+.heading{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+
 /* Nav Bar Ends */
 
 
