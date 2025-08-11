@@ -236,6 +236,7 @@ header {
     .image {
         height: 180px;
     }
+
 }
 
 @media (max-width: 700px) {
