@@ -30,9 +30,6 @@ a:hover {
     src: local('Berlin Sans FB'), url(/fonts/flaticon/font/BRLNSR.woff) format('woff');
     }
 
-
-
-
 header {
     position: relative;
     padding: 2rem;
@@ -53,7 +50,7 @@ header {
 .brand_name {
     color: #007f86;
     cursor: pointer;
-    font-family: "Berlin", system-ui;
+    font-family: 'Berlin Sans FB';
 }
 
 .brand_logo {
