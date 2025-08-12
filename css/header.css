@@ -22,9 +22,11 @@ a:hover {
     color: #007f86;
 }
 
+
+
 @font-face {
-    font-family: "Berlin Sans FC";
-    src: url(/fonts/BRLNSR.TTF) format(TTF);
+    font-family: 'Berlin';
+    src: url(/fonts/BRLNSR.TTF) format('truetype');
 }
 
 header {
@@ -47,7 +49,7 @@ header {
 .brand_name {
     color: #007f86;
     cursor: pointer;
-    font-family: "Berlin Sans FC";
+    font-family: "Berlin", system-ui;
 }
 
 .brand_logo {
