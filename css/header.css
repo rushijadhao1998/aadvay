@@ -202,7 +202,7 @@ header {
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 30px;
-    color: #000;
+    color: #fff;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
@@ -228,8 +228,6 @@ header {
 .home-sci a:hover::before {
     width: 100%;
 }
-
-
 
 
 
