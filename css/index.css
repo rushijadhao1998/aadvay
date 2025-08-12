@@ -71,6 +71,7 @@
     overflow: hidden;
     transition: 0.3s;
     height: 100%;
+    cursor: pointer;
   }
   
   @media (min-width: 1200px) {
