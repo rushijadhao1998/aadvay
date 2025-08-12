@@ -174,19 +174,13 @@ header {
 
 
 /* SOME FOOTER CODE START FROM HERE  */
-.home{
-    flex: auto;
-    display: flex;
-    padding: 15px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .home-sci {
     margin-top: 20px;
     margin-left: 15px;
     justify-content: space-between;
+    text-align: center;
 }
 
 .home-sci a {
