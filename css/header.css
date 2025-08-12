@@ -173,9 +173,6 @@ header {
 
 
 
-
-
-
 /* SOME FOOTER CODE START FROM HERE  */
 .home{
     flex: auto;
@@ -237,7 +234,6 @@ header {
 
 
 /* Responsive */
-
 
 
 @media (max-width: 1500px) {
