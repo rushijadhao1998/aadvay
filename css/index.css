@@ -30,7 +30,8 @@
     --------------------------------------------------------------*/
   .section-title {
     text-align: center;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
+    padding-top: 40px;
     position: relative;
   }
   
